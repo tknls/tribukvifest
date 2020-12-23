@@ -3,6 +3,8 @@
     box-sizing: border-box; }
 
 .p {
+  position: relative;
+  display: inline-block;
   font-family: Geometria;
   font-size: 2.34375vw;
   margin-left: 50vw;
@@ -11,8 +13,18 @@
 
 .h1 {
   display: inline-block;
-  margin-top: 8.75vw;
-  margin-left: 8.75vw;
+  top: 762.5%;
+  left: 762.5%;
+  width: 32.877604166666664vw;
+  height:  19.140625vw;
+  font-family: Geometria;
+  font-weight: bold;
+  font-size: 11.25vw;
+}
+.hh1 {
+  display: inline-block;
+  top: 762.5%;
+  left: 762.5%;
   width: 32.877604166666664vw;
   height:  19.140625vw;
   font-family: Geometria;
@@ -22,14 +34,15 @@
 
 .h2 {
   position: absolute;
-  Left: 0.5vw;
-  Top: 0.6vw;
+  Left:  26.497395833333332vw;
+  Top: 9.375vw;
   font-size: 3.125vw;
   font-family: Geometria;
   font-weight: Regular;
 }
 
 .qrcode{
+  position: relative;
   display: inline-block;
   width: 10.15625vw;
   height: 10.15625vw;
@@ -39,14 +52,16 @@
 
 }
 .stext {
+  position: relative;
   font-family: Geometria;
   font-weight: Regular;
   font-size:  1.171875vw;
 
 }
 
-
 .btext1 {
+  position: relative;
+  display: inline-block;
   weight:33.59375vw;
   height: 9.309895833333334vw;
   font-family: Geometria;
@@ -61,9 +76,8 @@
 }
 
 .date {
+  position: relative;
   display: inline-block;
-  /* margin: 26.7578125vw 44.921875vw 11.979166666666666vw 21.549479166666668vw; */
-
   width: 16.861979166666668vw;
   height: 13.346354166666666vw;
   font-family: Geometria;
