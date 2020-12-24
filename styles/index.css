@@ -1,7 +1,21 @@
-* {
+/* * {
     -webkit-box-sizing: border-box;
-    box-sizing: border-box; }
+    box-sizing: border-box; } */
 
+
+.container1{
+  display: inline-block;
+  width: 45.234vw;
+  height: 42.500vw;
+  background-color: #F0F8FF;
+}
+.container2 {
+  display: inline-block;
+  width: 34.700520833333336vw;
+  height: 20.8984375vw;
+  background-color: #F0FFF0;
+  margin-bottom:  12.565104166666666vw;
+}
 .p {
   position: relative;
   display: inline-block;
@@ -13,6 +27,7 @@
 
 .h1 {
   display: inline-block;
+  width: 50%;
   top: 762.5%;
   left: 762.5%;
   width: 32.877604166666664vw;
@@ -24,7 +39,7 @@
 .hh1 {
   display: inline-block;
   top: 762.5%;
-  left: 762.5%;
+  left: 600%;
   width: 32.877604166666664vw;
   height:  19.140625vw;
   font-family: Geometria;
@@ -33,6 +48,7 @@
 }
 
 .h2 {
+  width: 50%;
   position: absolute;
   Left:  26.497395833333332vw;
   Top: 9.375vw;
@@ -62,16 +78,17 @@
 .btext1 {
   position: relative;
   display: inline-block;
-  weight:33.59375vw;
-  height: 9.309895833333334vw;
+  /* weight:33.59375vw;
+  height: 9.309895833333334vw; */
   font-family: Geometria;
   font-weight: Medium;
-  margin-left: 41.796875vw;
+  text-align: left;
 }
 .btext2 {
   font-family: Geometria;
   font-weight: Medium;
-  margin-left: 41.796875vw;
+  text-align: left;
+
 
 }
 
@@ -83,6 +100,7 @@
   font-family: Geometria;
   font-weight: bold;
   font-size: 6.25vw;
+
 
 }
 
